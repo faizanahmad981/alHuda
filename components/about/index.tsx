@@ -1,38 +1,38 @@
 import React from 'react';
 import Image from 'next/image';
-import { img1, Logo } from '@/public/index'; 
+import { img1, Logo } from '@/public/index';
 
 const AboutUsSection = () => {
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white bg-lowpoly pb-12 border-b-3 border-[#409a3c]">
 
       {/* Top Green Banner */}
-      <div className="relative bg-white h-40 md:h-48 overflow-hidden">
-  {/* Curved Green Shape */}
-  <div className="absolute top-0 left-0 w-48 h-48 md:w-60 md:h-60 bg-[#2E8B57] rounded-br-full flex items-center justify-center z-10">
-    <h2 className="text-white text-lg md:text-2xl font-semibold uppercase ml-4 mt-4">About Us</h2>
-  </div>
+      <div className="relative bg-white h-60 overflow-hidden bg-lowpoly">
+        {/* Curved Green Shape */}
+        <div className="absolute top-0 left-[-60] w-120 h-60 theme-bg rounded-b-full flex items-center justify-center z-10 border-b-1 border-r-6 border-gray-300">
+          <h2 className="text-white text-5xl font-semibold uppercase ml-4 mt-4">About Us</h2>
+        </div>
 
-  {/* Logo in the top-right */}
-  <div className="absolute top-4 right-4">
-    <Image src={Logo} alt="Al-Huda Logo" className="w-32 md:w-40 h-auto object-contain" />
-  </div>
-</div>
+        {/* Logo in the top-right */}
+        <div className="absolute top-4 right-4">
+          <Image src={Logo} alt="Al-Huda Logo" className="w-100 object-contain" />
+        </div>
+      </div>
 
 
       {/* Image Card */}
-      <div className="w-full flex justify-center mt-6">
+      <div className="w-full flex justify-center mt-12">
         <div className="bg-[gray] shadow-lg border border-gray-200 p-2">
           <Image
             src={img1}
             alt="Furniture"
-            className="w-full max-w-[700px] h-auto object-cover"
+            className="object-cover"
           />
         </div>
       </div>
 
       {/* Green Content Section */}
-      <div className="bg-[#2E8B57] text-white px-6 md:px-20 py-8 mt-8">
+      <div className="bg-[#409a3c] bg-opacity-60 text-white px-6 md:px-20 py-8 mt-8">
         <p className="mb-4 text-lg">
           <span className="font-bold text-white">Al-Huda Woodworks</span> is a well-established furniture manufacturer in Islamabad.
         </p>

@@ -1,18 +1,18 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
 
-interface InfoCardProps {
+interface ChooseCardProps {
   heading: string;
   para: string;
   image: string | StaticImageData;
 }
 
-const InfoCard: React.FC<InfoCardProps> = ({ heading, para, image }) => {
+const ChooseCard: React.FC<ChooseCardProps> = ({ heading, para, image }) => {
   return (
-    <div className="w-70 h-[500px] bg-gray-300 rounded-t-[460px] px-2 pt-2 relative shadow-md">
+    <div className="w-70 h-[500px] bg-gray-300 rounded-tl-[100px] rounded-tr-[20px] px-2 pt-2 relative shadow-md">
       {/* Circular Image */}
-      <div className="flex justify-center items-center">
-        <div className="w-68 h-68 bg-[#409a3c] rounded-full border-8 border-white flex items-center justify-center shadow-md overflow-hidden">
+      <div className="flex justify-start items-start">
+        <div className="w-40 h-40 bg-[#409a3c] rounded-full border-8 border-white flex items-center justify-center shadow-md overflow-hidden">
 
           <Image src={image} alt={heading} className="object-cover" />
         </div>
@@ -27,4 +27,4 @@ const InfoCard: React.FC<InfoCardProps> = ({ heading, para, image }) => {
   );
 };
 
-export default InfoCard;
+export default ChooseCard;

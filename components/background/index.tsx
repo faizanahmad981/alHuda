@@ -21,6 +21,13 @@ const CompanyBackground = () => {
       ];
   return (
     <div>
+      <div className="relative bg-white h-80 overflow-hidden bg-lowpoly">
+              {/* Curved Green Shape */}
+              <div className="absolute top-0 right-[-60] w-150 h-80 theme-bg rounded-b-full flex items-center justify-center z-10 border-b-1 border-l-12 border-gray-300">
+                <h2 className="text-white text-5xl font-semibold uppercase ml-4 text-right pr-30">Company Background</h2>
+              </div>
+      
+      </div>
       <div className="bg-[#409a3c] text-white px-6 md:px-20 py-8 mt-8">
         <p className="mb-4 text-lg">
           Al-Huda Woodworks was established & registered in 2001. We are
@@ -45,7 +52,7 @@ const CompanyBackground = () => {
         </h3>
       </div>
 
-      <div className="bg-red-600 py-10 px-6 md:px-20 flex flex-col md:flex-row gap-6  items-start">
+      <div className="pt-10 px-6 md:px-20 flex flex-col md:flex-row gap-6  items-center justify-center bg-lowpoly">
         {cards.map((card, index) => (
           <InfoCard
             key={index}

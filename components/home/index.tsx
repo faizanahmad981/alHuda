@@ -4,20 +4,20 @@ import { wood, wood2, wood3, Logo } from '@/public/index';
 
 const HomeDefault = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full px-4 py-6">
+    <div className="bg-lowpoly flex flex-col items-center justify-center w-full px-4 pb-6">
 
       {/* Logo */}
       <div className="w-full flex justify-center">
         <Image
           src={Logo}
           alt="logo"
-          className="w-full max-w-[400px] h-auto object-contain"
+          className="w-full h-auto object-contain"
         />
       </div>
 
       {/* Header Bar */}
       <div className="w-full bg-[#3c9b3b] py-4 mt-6 flex justify-center">
-        <h1 className="text-white text-3xl md:text-4xl font-bold uppercase tracking-wider text-center">
+        <h1 className="text-white text-4xl md:5xl lg:6xl xl:text-7xl font-bold uppercase tracking-wider text-center">
           Al-Huda Woodworks
         </h1>
       </div>
@@ -30,12 +30,12 @@ const HomeDefault = () => {
           <Image
             src={wood}
             alt="Kitchen"
-            className="w-[250px] h-auto object-cover rounded-md shadow-md"
+            className="w-80 h-auto object-cover border-6 border-gray-300"
           />
           <Image
             src={wood2}
             alt="Office"
-            className="w-[250px] h-auto object-cover rounded-md shadow-md"
+            className="w-80 h-auto object-cover border-6 border-gray-300"
           />
         </div>
 
@@ -44,10 +44,13 @@ const HomeDefault = () => {
           <Image
             src={wood3}
             alt="Door Design"
-            className="w-[350px] h-[420px] object-cover rounded-md shadow-md"
+            className="w-120 object-cover rounded-md"
           />
-        </div>
+        </div>       
 
+      </div>
+      <div className="py-8">
+      <button className='theme-bg px-12 py-3 rounded-4xl text-white text-xl font-bold'>w w w . a l h u d a w o o d w o r k s . c o m</button>
       </div>
     </div>
   )

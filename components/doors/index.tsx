@@ -20,7 +20,10 @@ const Doors = () => {
         SOLID/ENGINEERING DOORS
       </h1>
       <div className="bg-lowpoly text-2xl flex py-12">
-        <p className='mx-auto'>Designed for precision and performance, these doors are crafted using advanced <br /> engineering techniques. Perfect for modern homes and offices, offering enhanced <br /> security, soundproofing, and fire resistance.</p>
+        <p className='mx-auto'>
+        Made from 100% solid wood, these doors are durable, long-lasting, and perfect for those seeking a classic, <br/>
+        timeless look. Ideal for main entrances and rooms where strength and elegance <br/>are a priority.
+        </p>
       </div>
     </div>
   );

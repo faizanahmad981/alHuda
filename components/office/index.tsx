@@ -17,7 +17,9 @@ const Office = () => {
                 OFFICE FURNITURE
             </h1>
             <div className="bg-lowpoly text-2xl flex py-12">
-                <p className='mx-auto'>Our custom carpentry expertise brings you exquisite office furniture that elevates <br /> your workspace. From sleek desks to sophisticated storage solutions, we craft  <br /> pieces that combine style, comfort, and durability.
+                <p className='mx-auto'>Our custom carpentry expertise brings you exquisite office furniture that elevates <br />
+                 your workspace. From sleek desks to sophisticated storage solutions, we craft  <br /> pieces that combine style, 
+                 comfort, and durability.
                 </p>
             </div>
         </div>

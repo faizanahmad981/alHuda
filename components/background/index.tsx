@@ -47,7 +47,7 @@ const CompanyBackground = () => {
           satisfaction.
         </p>
 
-        <h3 className="text-white font-semibold text-lg mb-2">
+        <h3 className="text-white font-medium text-3xl mb-2">
           Transforming Your Home & Offices
         </h3>
       </div>

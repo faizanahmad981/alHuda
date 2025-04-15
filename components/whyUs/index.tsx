@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { img1, Logo, icon, icon1, icon2, bottom } from '@/public/index';
+import {  Logo, icon, icon1, icon2, bottom } from '@/public/index';
 import ChooseCard from './chooseCard';
 
 const WhyUs = () => {

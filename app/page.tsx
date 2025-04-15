@@ -12,7 +12,7 @@ import Wardrobes from "@/components/wardrobes";
 import WhyUs from "@/components/whyUs";
 import EndPage from "@/components/endPage";
 import Duties from "@/components/duties";
-import Image from "next/image";
+
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { living, panel, decoration } from '@/public';
+import { living, decoration } from '@/public';
 
 export default function Duties() {
   return (

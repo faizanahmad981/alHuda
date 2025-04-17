@@ -7,10 +7,13 @@ const Kitchen
     return (
         <div className="w-full bg-lowpoly pb-64">
             {/* Wood3 image in the center */}
-            <div className="w-full">
-                {/* <p className='absolute text-white flex mx-auto top-10'>Elegance Meets Functionality!</p> */}
-                <Image src={kitchen} alt="Wood Image" className='w-full' />
-
+            
+            <div className="relative w-full px-12">
+              <Image src={kitchen} alt="Wood Image" className="w-full object-cover rounded2xl" />
+            
+              <p className="absolute bottom-6 left-24 text-white  text-3xl md:text-3xl lg:text-6xl font-[cursive] italic tracking-wide drop-shadow-md">
+      Elevate your cooking space
+              </p>
             </div>
 
             {/* Heading with theme-bg */}

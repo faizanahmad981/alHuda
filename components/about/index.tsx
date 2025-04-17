@@ -26,7 +26,7 @@ const AboutUsSection = () => {
           <Image
             src={img1}
             alt="Furniture"
-            className="object-cover"
+            className="object-cover rounded-2xl "
           />
         </div>
       </div>

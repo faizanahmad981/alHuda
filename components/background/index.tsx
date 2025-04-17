@@ -24,7 +24,7 @@ const CompanyBackground = () => {
       <div className="relative bg-white h-80 overflow-hidden bg-lowpoly">
               {/* Curved Green Shape */}
               <div className="absolute top-0 right-[-60] w-150 h-80 theme-bg rounded-b-full flex items-center justify-center z-10 border-b-1 border-l-12 border-gray-300">
-                <h2 className="text-white text-5xl font-semibold uppercase ml-4 text-right pr-30">Company Background</h2>
+                <h2 className="text-white text-lg md:text-5xl font-semibold uppercase sm:ml-14  text-right pr-20">Company Background</h2>
               </div>
       
       </div>

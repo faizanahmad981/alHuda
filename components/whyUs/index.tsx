@@ -58,9 +58,18 @@ const WhyUs = () => {
           />
         ))}
       </div>
-        <div className="image mt-24">
-        <Image src={bottom} alt="Al-Huda Logo" className="w-full" />
-        </div>
+      
+        <div className="relative w-full mt-24">
+  <Image src={bottom} alt="Al-Huda Logo" className="w-full object-cover" />
+
+  {/* Centered Transparent Text Block */}
+  <div className="absolute w-full py-16 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gray-800 bg-opacity-60 px-6  rounded-md text-white text-center">
+    <p className="text-lg md:text-xl lg:text-6xl font-medium">TRANSFORMING YOUR</p>
+    <p className="text-3xl md:text-4xl lg:text-6xl font-semibold tracking-wide mt-2">HOME & OFFICES</p>
+  </div>
+</div>
+
+
       
     </div>
   );

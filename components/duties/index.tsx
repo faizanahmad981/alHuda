@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { living, decoration } from '@/public';
+import { living, decoration ,flooring} from '@/public';
 
 export default function Duties() {
   return (
@@ -15,12 +15,14 @@ export default function Duties() {
             className="w-full"
           />
         </div>
-        <div className="theme-bg text-white p-6 text-2xl">
+        <div className="theme-bg text-white p-6 text-2xl  ">
           <h3 className="text-lg font-bold mb-2">Standarizing Your Living</h3>
-          <p>
-            From conceptualization to completion, we’ll guide you through every step of the
-            renovation process. Our goal is to deliver a stunning, functional, and comfortable living space
-            that exceeds your expectations.
+          <p className=''>
+            From conceptualization to completion, we’ll <br/>
+            guide you through every step of the<br/>
+            renovation process. Our goal is to deliver a<br/>
+             stunning, functional, and comfortable living <br/>
+             space that exceeds your expectations.
           </p>
         </div>
       </div>
@@ -30,13 +32,15 @@ export default function Duties() {
       <div className="theme-bg text-white p-6 text-2xl">
           <h3 className="text-lg font-bold mb-2">Wall Panel & Flooring</h3>
           <p>
-            Handcrafted from high-quality wood, our panels bring a touch of natural elegance
-            to any room. Perfect for modern living rooms, cozy bedrooms, or sophisticated offices.
+            Handcrafted from high-quality wood, our <br/>
+            panels bring a touch of natural elegance to  <br/>
+            any room. Perfect for modern living rooms,  <br/>
+            cozy bedrooms, or sophisticated offices. <br/>
           </p>
         </div>
         <div>
           <Image 
-            src={decoration}
+            src={flooring}
             alt="Wall Panel & Flooring" 
             className="w-full"
           />
@@ -56,8 +60,10 @@ export default function Duties() {
         <div className="theme-bg text-white p-6 text-2xl">
           <h3 className="font-bold mb-2">Customize Furniture & Decorative Items</h3>
           <p>
-            Elevate your space with our bespoke customized decorative furniture!
-            Handcrafted with love and attention to detail, our unique pieces blend style,
+            Elevate your space with our bespoke <br/>
+            customized decorative furniture!<br/>
+            Handcrafted with love and attention to<br/>
+             detail, our unique pieces blend style,<br/>
             functionality, and personality.
           </p>
         </div>

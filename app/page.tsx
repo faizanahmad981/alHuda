@@ -17,19 +17,19 @@ import Duties from "@/components/duties";
 export default function Home() {
   return (
     <div>
-      <NavBar />
-      <HomeDefault />
-      <AboutUsSection />
-      <CompanyBackground />
-      <Doors/>
-      <Office/>
-      <HomeFurniture/>
-      <Kitchen/>
-      <Wardrobes/>
-      <Duties/>
-      <WhyUs/>
-      <EndPage/>
-      
-    </div>
+    <NavBar />
+    <section id="home"><HomeDefault /></section>
+    <section id="about"><AboutUsSection /></section>
+    <section id="background"><CompanyBackground /></section>
+    <section id="doors"><Doors /></section>
+    <section id="office"><Office /></section>
+    <section id="furniture"><HomeFurniture /></section>
+    <section id="kitchen"><Kitchen /></section>
+    <section id="wardrobes"><Wardrobes /></section>
+    <section id="duties"><Duties /></section>
+    <section id="whyus"><WhyUs /></section>
+    <section id="end"><EndPage /></section>
+   
+  </div>
   );
 }

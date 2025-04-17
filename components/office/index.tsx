@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { img1, img2 } from "@/public/index";
+import {  img2 } from "@/public/index";
 
 const Office = () => {
   return (
